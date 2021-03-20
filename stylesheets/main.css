@@ -1,0 +1,90 @@
+.header  {
+  display: flex;
+  background-color:#a52a2a;
+  color:white;
+  justify-content: space-between;
+  font-size:15px;
+  font-weight:bold;
+  padding: 1.5em;
+}
+
+#link {
+  color: white;
+}
+
+.navbar {
+  background-color:#4d4d4d;
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navlink {
+  color: white;
+  padding: 1em;
+}
+
+.pic1 img {
+   width: 880px;
+   height: 550px;
+   padding: 2em;
+}
+
+.text h1 {
+  font-weight: bold;
+  font-size:16px;
+}
+
+.text {
+  padding: 18px;
+  font-size:12px;
+}
+
+.rightpics img {
+  width: 230px;
+  height: 178px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding: 30px;
+  padding-right: 160px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding: 15px;
+  font-weight: bold;
+  font-size:16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#footer {
+  background-color:#4d4d4d;
+  color:white;
+  font-size:12px;
+  padding:15px;
+}
